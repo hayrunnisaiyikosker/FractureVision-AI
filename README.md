@@ -5,7 +5,7 @@
 ## Overview
 FractureVision-AI is an AI-powered medical imaging project designed to automatically detect bone fractures from X-ray images using object detection techniques.
 
-The model was trained on a large-scale dataset containing **40,000+ labeled X-ray images** over **100 epochs**, achieving an overall detection accuracy of **80–90%**.
+The model was trained over 100 epochs on an augmented dataset exceeding 40,000 X-ray images. The dataset was expanded using preprocessing and image enhancement techniques such as brightness and contrast adjustments to improve generalization performance. The system achieved an overall detection accuracy of approximately 80–90%.
 
 The system integrates a trained YOLOv8 model with a PyQt5 desktop application, enabling users to upload X-ray images and receive real-time fracture localization with bounding box visualization and confidence scores.
 
